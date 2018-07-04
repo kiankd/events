@@ -8,4 +8,6 @@ mv ECB+_LREC2014 ECB+
 mkdir ECB+/ECB+/
 unzip ECB+/ECB+.zip -d ECB+/
 rm ECB+/ECB+.zip
+unzip Parsed.zip -d ECB+/
+rm Parsed.zip
 
