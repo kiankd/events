@@ -10,4 +10,5 @@ unzip ECB+/ECB+.zip -d ECB+/
 rm ECB+/ECB+.zip
 unzip Parsed.zip -d ECB+/
 rm Parsed.zip
-
+tar -xzf vocab_files.tar.gz
+rm vocab_files.tar.gz
