@@ -12,3 +12,6 @@ unzip Parsed.zip -d ECB+/
 rm Parsed.zip
 tar -xzf vocab_files.tar.gz
 rm vocab_files.tar.gz
+gunzip all_parsed_ecb+.npy.gz
+gunzip events_parsed_ecb+.npy.gz
+

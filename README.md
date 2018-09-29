@@ -22,7 +22,7 @@ bash get_scores.sh MODEL_NAME.response.conll
 
 For just within-doc results:
 ```
-bash get_scores.sh ecb_plus_events_test_mention_based_WITHINDOC_.key_conll  MODEL_NAME__within.response.conll
+bash get_scores.sh ecb_plus_events_test_mention_based_WITHINDOC_.key_conll  MODEL_NAME__within.response_conll
 ```
 
 ### Python code
