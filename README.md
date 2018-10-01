@@ -17,7 +17,7 @@ If you seek to implement our model, I would recommend a reimplementation in PyTo
 ## Relevant files
 The predictions made by each model have been saved in `results/`, along with the gold standard coreference chains. After switching to the scripts directory (`cd scripts/`) you can do the following to replicate the results presented in the paper. For the within and cross-doc results:
 ```
-bash get_scores.sh MODEL_NAME.response.conll
+bash get_scores.sh MODEL_NAME.response_conll
 ```
 
 For just within-doc results:
